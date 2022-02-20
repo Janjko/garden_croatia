@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2022-02-05 23:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=cp1252\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: .\conflate2rss.py:200
+msgid "{ENTRY[create_elements]} elements missing, and {ENTRY[modify_elements]} to fix."
+msgstr "{ENTRY[create_elements]} post offices missing, and {ENTRY[modify_elements]} more to fix."
+
+#: .\conflate2rss.py:246
+msgid "Element {ELEMENT[element_ref]} mapped correctly."
+msgstr "Post office <a href='https://osm.org/{ELEMENT[osm_type]}/{ELEMENT[osm_id]}'>{ELEMENT[tags.name]}</a> mapped correctly."
+
+#: .\conflate2rss.py:248
+msgid "Element {ELEMENT[element_ref]} deleted, or lost basic tags."
+msgstr "Post office <a href='https://osm.org/{ELEMENT[osm_type]}/{ELEMENT[osm_id]}'>{ELEMENT[tags.name]}</a> deleted, or lost basic tags."
+
+#: .\conflate2rss.py:250
+msgid "Element {ELEMENT[element_ref]} now has bad tags."
+msgstr "Post office <a href='https://osm.org/{ELEMENT[osm_type]}/{ELEMENT[osm_id]}'>{ELEMENT[tags.name]}</a> got its tags broken."
+
+#: .\conflate2rss.py:252
+msgid "Element {ELEMENT[element_ref]} mapped with bad tags."
+msgstr "Post office <a href='https://osm.org/{ELEMENT[osm_type]}/{ELEMENT[osm_id]}'>{ELEMENT[tags.name]}</a> got mapped with bad tags."
+
+#: .\conflate2rss.py:254
+msgid "Element {ELEMENT[element_ref]} added to input dataset."
+msgstr "Post office <a href='https://osm.org/{ELEMENT[osm_type]}/{ELEMENT[osm_id]}'>{ELEMENT[tags.name]}</a> added to input dataset."
+
