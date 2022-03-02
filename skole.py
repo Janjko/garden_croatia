@@ -5,7 +5,7 @@ dataset_id = 'e-matica'
 source = 'E-Matica'
 add_source = True
 
-query = [('amenity', 'school'),('ref:e-matica',)]
+query = [('ref:e-matica',)]
 
 bbox = False
 
