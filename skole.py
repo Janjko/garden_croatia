@@ -66,8 +66,10 @@ def dataset(fileobj):
         if "Srednja" in row[6]:
             isced.append('3')
         
-        if "Umjetni" in row[6] and "Srednja" in row[6]:
+        if "Umjetni" in row[6] and "Srednja" in row[6] and "glazben" in row[1].lower():
             tags['amenity']='music_school'
+        else if "Umjetni" in row[6] and "Srednja" in row[6] and ("ples" in row[1].lower() or "balet" in row[1].lower()):
+            tags['amenity']='dancing_school'
         else:
             tags['amenity']='school'
         
